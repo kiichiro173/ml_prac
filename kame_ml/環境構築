@@ -1,0 +1,3 @@
+$ docker login
+$ docker pull datascientistus/ds-python-env3
+$ docker run -v ローカルのマウントさせたいフォルダパス:/work -p 8888:8888 -name kame_ml_env datascientist/ds-python-env3
