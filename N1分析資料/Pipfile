@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+transformers = "*"
+fugashi = "*"
+unidic-lite = "*"
+jupyter = "*"
+lxml = "*"
+selenium = "*"
+pandas = "*"
+numpy = "*"
+mecab-python3 = "*"
+torch = "*"
+seaborn = "*"
+matplotlib = "*"
+unidic = "*"
+ipadic = "*"
+japanize-matplotlib = "*"
+spacy = "*"
+ginza = "*"
+ja-ginza = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
